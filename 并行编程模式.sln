@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "实现惰性求值的共享状态", "实现惰性求值的共享状态\实现惰性求值的共享状态.csproj", "{9BE0A06F-4014-4771-8F22-83907EB77C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用BlockingCollection实现并行管道", "使用BlockingCollection实现并行管道\使用BlockingCollection实现并行管道.csproj", "{9407870A-1BD9-42CA-B4CB-153F18BAE753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用TPL数据流实现并行管道", "使用TPL数据流实现并行管道\使用TPL数据流实现并行管道.csproj", "{A8CCBF92-E68D-4243-A74D-46EE81C49F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用PLINQ实现MapReduce模式", "使用PLINQ实现MapReduce模式\使用PLINQ实现MapReduce模式.csproj", "{93F5A3FB-79A5-4578-9F9C-29006CD47EE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE0A06F-4014-4771-8F22-83907EB77C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE0A06F-4014-4771-8F22-83907EB77C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE0A06F-4014-4771-8F22-83907EB77C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE0A06F-4014-4771-8F22-83907EB77C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9407870A-1BD9-42CA-B4CB-153F18BAE753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9407870A-1BD9-42CA-B4CB-153F18BAE753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9407870A-1BD9-42CA-B4CB-153F18BAE753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9407870A-1BD9-42CA-B4CB-153F18BAE753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8CCBF92-E68D-4243-A74D-46EE81C49F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CCBF92-E68D-4243-A74D-46EE81C49F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CCBF92-E68D-4243-A74D-46EE81C49F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CCBF92-E68D-4243-A74D-46EE81C49F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F5A3FB-79A5-4578-9F9C-29006CD47EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F5A3FB-79A5-4578-9F9C-29006CD47EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F5A3FB-79A5-4578-9F9C-29006CD47EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F5A3FB-79A5-4578-9F9C-29006CD47EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4ED3745-7B6A-46AD-ABC3-96E81FDFAACB}
+	EndGlobalSection
+EndGlobal
